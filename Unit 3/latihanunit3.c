@@ -14,7 +14,7 @@ int main(){
     }
 
     for(int j = 0; j < n; j++){
-        jumlah = jumlah + array[j];
+        jumlah += array[j];
     }
 
     printf("Hasil penjumlahan seluruh elemen pada array adalah %d", jumlah);
